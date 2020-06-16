@@ -12,10 +12,17 @@
 $AU-main-nav-breakpoint: sm;
 
 // UI-Kit
-@import "./_auds.scss;"
+@import './_auds.scss';
+
+
+// Reset the body
+body {
+	padding: 0;
+	margin: 0;
+}
 
 // Increase the spacing for au-body elements inside main
-main ; .au-body {
+main > .au-body {
 	@include AU-space( padding, 2unit 0 );
 
 }
