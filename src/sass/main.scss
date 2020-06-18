@@ -1,15 +1,39 @@
-// Dark theme overrides
-$AU-colordark-foreground-text:   #ffffff;
-$AU-colordark-foreground-action: #C8F7C5;
-$AU-colordark-foreground-focus:  #ee337b;
-$AU-colordark-background:        #002d3f;
+// Light palette
+// ==============
 
-// Light theme overrides
-$AU-color-foreground-action: #7928A1;
-$AU-color-foreground-focus:  #0C8927;
+// Default values - can be overridden with your own colours
+$AU-color-foreground-action:     rgb(102, 33, 192) !default;
+$AU-color-foreground-focus:      #9263DE !default;
+$AU-color-foreground-text:       #313131 !default;
+$AU-color-background:            #ffffff !default;
 
+// Generated values - automatically created from default values
+// $AU-color-foreground-muted     (#626262)
+// $AU-color-foreground-border    (#808080)
+// $AU-color-background-shade     (#f5f5f5)
+// $AU-color-background-alt       (#ebebeb)
+// $AU-color-background-alt-shade (#e0e0e0)
+
+
+// Dark palette
+// ==============
+
+// Default values - can be overridden with your own colours
+$AU-colordark-foreground-action: #EFF7FF !default;
+$AU-colordark-foreground-focus:  #C390F9 !default;
+$AU-colordark-foreground-text:   #ffffff !default;
+$AU-colordark-background:        #240C46 !default;
+
+// Generated values - automatically created from default values
+// $AU-colordark-foreground-muted     (#bdd2d7)
+// $AU-colordark-foreground-border    (#95b7bf)
+// $AU-colordark-background-shade     (#104f5f)
+// $AU-colordark-background-alt       (#0d414d)
+// $AU-colordark-background-alt-shade (#0a323c)
 //Main nav, set project specific breakpoint
 $AU-main-nav-breakpoint: sm;
+
+
 
 // UI-Kit
 @import './_auds.scss'; 
