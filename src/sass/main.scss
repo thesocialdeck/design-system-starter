@@ -2,9 +2,9 @@
 // ==============
 
 // Default values - can be overridden with your own colours
-$AU-color-foreground-action:     rgb(102, 33, 192) !default;
-$AU-color-foreground-focus:      #9263DE !default;
-$AU-color-foreground-text:       #313131 !default;
+$AU-color-foreground-action:     #287DB2 !default;
+$AU-color-foreground-focus:      #F26322 !default;
+$AU-color-foreground-text:       #002D3F !default;
 $AU-color-background:            #ffffff !default;
 
 // Generated values - automatically created from default values
@@ -19,10 +19,10 @@ $AU-color-background:            #ffffff !default;
 // ==============
 
 // Default values - can be overridden with your own colours
-$AU-colordark-foreground-action: #EFF7FF !default;
-$AU-colordark-foreground-focus:  #C390F9 !default;
+$AU-colordark-foreground-action: #ffffff !default;
+$AU-colordark-foreground-focus:  #F26322 !default;
 $AU-colordark-foreground-text:   #ffffff !default;
-$AU-colordark-background:        #240C46 !default;
+$AU-colordark-background:        #002D3F !default;
 
 // Generated values - automatically created from default values
 // $AU-colordark-foreground-muted     (#bdd2d7)

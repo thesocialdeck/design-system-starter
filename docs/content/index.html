@@ -43,6 +43,51 @@
 	<meta name="twitter:site" content="@DTA" />
 	<meta name="twitter:image" content="https://govau.github.io/design-system-starter/assets/favicons/designsystem.jpg" />
 
+	-<!DOCTYPE html>
+<!--[if lt IE 8]>
+	<html class="no-js lt-ie8 lt-ie9" lang="en">
+<![endif]-->
+<!--[if IE 8]>
+	<html class="no-js lt-ie9 ie8" lang="en">
+<![endif]-->
+<!--[if IE 9 ]>
+	<html class="no-js ie9" lang="en">
+<![endif]-->
+<!--[if !(IE)]><!-->
+	<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<!-- AGLS Metadata -->
+	<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+	<link rel="schema.AGLSTERMS" href="http://www.agls.gov.au/agls/terms/" />
+	<meta name="DCTERMS.title" content="Content page template - Australian Government Design System" />
+	<meta ... scheme="AGLSTERMS.AglsAgent" content="corporateName=Digital Transformation Agency, Australia; address=50 Marcus Clarke St Canberra ACT 2601; contact=+61 427 136 791" />
+	<meta name="DCTERMS.publisher" scheme="AGLSTERMS.AglsAgent" content="corporateName=Digital Transformation Agency, Australia; address=50 Marcus Clarke St Canberra ACT 2601; contact=+61 427 136 791" />
+	<meta name="DCTERMS.description" content="Content pages display information clearly" />
+	<meta name="DCTERMS.modified" scheme="DCTERMS.ISO8601" content="2010-07-29T12:05:44+10:00" />
+	<meta name="DCTERMS.subject" content="design system, templates" />
+	<meta name="DCTERMS.language" scheme="DCTERMS.RFC4646" content="en-AU" />
+	<meta name="DCTERMS.type" content="Content page template" />
+	<meta name="DCTERMS.coverage" content="Australia" />
+	<meta name="DCTERMS.spatial" content="Australia" />
+	<meta name="AGLSTERMS.documentType" content="text" />
+	<meta name="msapplication-TileColor" content="#ffffff" />
+	<meta name="theme-color" content="#ffffff" />
+	<meta name="robots" content="index, follow" />
+	<meta name="author" content="Digital Transformation Agency" />
+	<meta name="description" content="Content pages display information clearly" />
+
+	<!-- TWITTER CARD -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Australian Government Design System" />
+	<meta name="twitter:description" content="Content pages display information clearly" />
+	<meta name="twitter:site" content="@DTA" />
+	<meta name="twitter:image" content="https://govau.github.io/design-system-starter/assets/favicons/designsystem.jpg" />
+
 	<!-- OPENGRAPH -->
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Content page template - Australian Government Design System" />
@@ -91,21 +136,24 @@
 	<header class="au-header au-header--dark" role="banner">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-sm-8">
 					<a class="au-header__brand" href="#">
-						<img class="au-header__brand-image" alt="Insert alternate text here" src="../assets/img/header-logo-agov.png">
+						<img class="au-header__brand-image" alt="Insert alternate text here" src="assets/img/header-logo-agov.png">
 						<div class="au-header__text">
-						<h1 class="au-header__heading">Name of website</h1>
-						<div class="au-header__subline">Simple explanation of the website</div>
+							<h1 class="au-header__heading">Review of Disability Standards for Education</h1>
+							<div class="au-header__subline">Consultations hub</div>
 						</div>
 					</a>
+				</div>
+				<div class="col-sm-4">
+
 				</div>
 			</div>
 		</div>
 	</header>
 
 	<!-- MAIN NAVIGATION -->
-	<nav class="au-main-nav au-main-nav--dark" id="mainmenu" aria-label="main">
+	<nav class="au-main-nav au-main-nav--dark" id="#mainmenu" aria-label="main">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
@@ -126,11 +174,11 @@
 									Close
 								</button>
 								<ul class="au-link-list">
-									<li><a href="../">Home</a></li>
-									<li class="active"><a href="#">Content page</a></li>
-									<li><a href="../form">Form page</a></li>
-									<li><a href="#">Simple terms</a></li>
-									<li><a href="#">Distinct from eachother</a></li>
+									<li class="active"><a href="#">Home</a></li>
+									<li><a href="terms_of_reference">Terms of Reference</a></li>
+									<li><a href="discussion_paper">Discussion paper</a></li>
+									<li><a href="content_2">Get involved</a></li>
+									<li><a href="#">Contact</a></li>
 								</ul>
 								<div class="au-main-nav__focus-trap-bottom"></div>
 							</div>
@@ -145,7 +193,7 @@
 	<!-- MAIN BODY -->
 	<main>
 		<!--CONTENT-->
-		<section class="au-body au-body--dark">
+		<section class="au-body">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-4 col-sm-push-8">
@@ -201,8 +249,7 @@
 						<h1>Content page example (h1)</h1>
 						<p>The page heading communicates the main focus of the page. Make your page heading descriptive and keep it succinct.</p>
 						<p>These headings introduce, respectively, sections and subsections within your body copy. As you create these headings, follow the same guidelines that you use when writing section headings: Be succinct, descriptive, and precise.</p>
-						<h2>buy a ticket (h2)</h2>
-						<iframe id="iframe-container" src="https://events.humanitix.com/test-event-9gcs4peu/tickets?w=true&p=%236621c0" width="100%" height="600px" frameborder="0"></iframe>    <script>        var humanitix = {            findPos: function(obj) {                var curtop = 0;                if (obj.offsetParent) {                do {                    curtop += obj.offsetTop;                } while ((obj = obj.offsetParent));                return [curtop];                }            }        };        window.addEventListener('message', function (e) {            if (e.origin !== "https://events.humanitix.com"){                return;            }               var messageData = e.data;            var iframeEl = document.getElementById('iframe-container');            if (iframeEl && messageData && !isNaN(messageData.scrollHeight)){                iframeEl.style.height = messageData.scrollHeight + 'px';            }            if (iframeEl && messageData && messageData.pageChange) {              // scroll to top, on page change              window.scroll(0, humanitix.findPos(iframeEl));          }        }, false);</script>
+						<h2>Subsection heading (h2)</h2>
 						<p>The particulars of your body copy will be determined by the topic of your page. Regardless of topic, it’s a good practice to follow the inverted pyramid structure when writing copy: Begin with the information that’s most important to your users and then present information of less importance.</p>
 						<p>Keep each section and subsection focused — a good approach is to include one theme (topic) per section.</p>
 						<h3>Subsection heading (h3)</h3>
